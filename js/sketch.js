@@ -108,3 +108,4 @@ let sketch = function (p) {
 }
 
 new p5(sketch, 'container');
+new p5(sketch, 'container2');

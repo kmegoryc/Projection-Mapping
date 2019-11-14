@@ -5,6 +5,7 @@
     #simple,
     #so-simple,
     #container,
+    #container2,
     #test {
       width: 300px;
       height: 300px;
@@ -15,7 +16,6 @@
       background: green;
     }
 
-    #container,
     #test {
       background: blue;
     }
@@ -46,13 +46,14 @@
   <div id="simple">This is so simple.</div>
   <div id="so-simple">This is so simple.</div>
   <div id="container"></div>
+  <div id="container2"></div>
 
   <!-- <div id="nose">here is my nose!</div> -->
   <script>
     var configObject = {
-      autoSave: false,
-      autoLoad: false,
-      layers: ["simple", "so-simple", "test", "container"]
+      autoSave: true,
+      autoLoad: true,
+      layers: ["simple", "so-simple", "test", "container", "container2"]
     };
     var mapstatic = Maptastic(configObject);
     //var canvas = document.getElementById("defaultCanvas0");
